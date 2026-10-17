@@ -28,7 +28,7 @@ function toast(msg, isError = false) {
 // Default: records are saved in this browser (localStorage). To share records between all
 // visitors, paste your Google Apps Script Web App URL below (see README.md).
 const CONFIG = {
-  scriptUrl: '',          // Google Apps Script Web App URL (optional, shares records between visitors)
+  scriptUrl:'https://script.google.com/macros/s/AKfycbxbZcrq8CWu5rF1LJRlbTvXTt1f1nbZi36xChWbG-E1XSsjT32OILPSuYTOrJJhZqB-ow/exec',       // Google Apps Script Web App URL (optional, shares records between visitors)
   mandiApiKey: '',        // free key from data.gov.in (My Account). Empty = the price board stays hidden
   mandiState: 'Gujarat'   // state whose mandi prices are shown
 };
