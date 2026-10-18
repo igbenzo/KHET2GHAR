@@ -209,5 +209,44 @@
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
   <script src="script.js"></script>
+  <!-- Admin Login Page --><section id="adminLogin" class="screen hidden">
+  <div class="admin-login-page">
+    <div class="admin-login-card">
+      <div class="admin-login-logo">🌾</div>
+      <h1>Khet2Ghar Admin</h1>
+      <p class="admin-login-subtitle">
+        Manage your agricultural marketplace
+      </p>  <form id="adminLoginForm">
+    <label for="adminUsername">Admin Username</label>
+    <input
+      id="adminUsername"
+      name="username"
+      type="text"
+      placeholder="Enter admin username"
+      required
+    >
+
+    <label for="adminPassword">Password</label>
+    <input
+      id="adminPassword"
+      name="password"
+      type="password"
+      placeholder="Enter admin password"
+      required
+    >
+
+    <button class="admin-login-button" type="submit">
+      Login as Admin
+    </button>
+  </form>
+
+  <a class="admin-login-back" href="#/home">
+    ← Back to Home
+  </a>
+  <p id="adminLoginMessage" role="status"></p>
+</div>
+
+  </div>
+  </section>
 </body>
 </html>
